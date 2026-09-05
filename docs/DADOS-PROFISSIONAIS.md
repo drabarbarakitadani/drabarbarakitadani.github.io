@@ -8,6 +8,7 @@ Informações fornecidas pelo usuário para o site. Atualizado em 05/09/2026.
 - Número internacional no link: 5512988978229.
 - Instagram: https://www.instagram.com/drabarbarakitadani/
 - Endereço: Rua Dr. Gabriel Monteiro da Silva, 666 - Ibiúna, SP.
+- Registro profissional: CRO-SP 159.520 (recebido em 05/09/2026; exibido no rodapé abaixo do nome).
 
 ## Mensagem do WhatsApp
 
@@ -17,7 +18,7 @@ O botão abre a conversa com essa mensagem preenchida. A pessoa confirma o envio
 
 ## Ainda a receber
 
-- CRO/UF e especialidades registradas.
+- Especialidades registradas, se forem exibidas.
 - Horários de atendimento, caso sejam exibidos.
 - Aprovação final dos textos clínicos e dos cortes do vídeo.
 

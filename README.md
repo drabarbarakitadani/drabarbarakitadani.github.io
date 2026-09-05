@@ -40,4 +40,4 @@ Identidade: Montserrat, base clara, verde oliva #708D3E como acento e verde prof
 
 ## Pendências antes de divulgar
 
-CRO/UF no rodapé (`registro` em `site.json`), revisão dos textos dos cards e aprovação do vídeo pela Dra., incluindo autorização de imagem da paciente que aparece nos cortes. Enquanto isso, o site fica publicado com `noindex`. Detalhes no [plano de publicação](docs/PLANO-PUBLICACAO.md).
+Revisão dos textos dos cards e aprovação do vídeo pela Dra., incluindo autorização de imagem da paciente que aparece nos cortes. Enquanto isso, o site fica publicado com `noindex`. Detalhes no [plano de publicação](docs/PLANO-PUBLICACAO.md).

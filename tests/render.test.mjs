@@ -42,6 +42,7 @@ test('página inclui 18 procedimentos, contato e módulos ativos na posição ce
   assert.equal(html.includes('modulo-exemplo-destaque'), false, 'exemplos ficam desligados');
   assert.ok(html.includes(`href="${esc(whatsappUrl(content.site))}"`));
   assert.ok(html.includes('Conheça os procedimentos · 18'));
+  assert.ok(html.includes('<span class="registro">CRO-SP 159.520</span>'), 'CRO no rodapé');
 });
 
 test('head reflete indexação, canônica e imagem de compartilhamento absoluta', () => {
