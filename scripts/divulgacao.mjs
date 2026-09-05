@@ -29,9 +29,9 @@ em{font-style:normal;color:#708D3E}.muted{color:#716D64}
 .rodape svg{width:64px;height:auto}
 .botao{display:inline-flex;align-items:center;justify-content:space-between;gap:80px;border:2px solid #1F2711;border-radius:8px;color:#1F2711;padding:30px 44px;font-size:30px;font-weight:500}
 .arco{width:100%;height:760px;overflow:hidden;border-radius:46% 46% 8px 8px;background:#E8E1D8}.arco img{width:100%;height:100%;object-fit:cover;object-position:50% 40%}
-.phone{position:absolute;left:50%;top:300px;transform:translateX(-50%);width:560px;height:1140px;border-radius:72px;background:#1b1b1b;padding:18px;box-shadow:0 40px 80px rgba(41,40,36,.18)}
+.phone{position:absolute;left:50%;top:300px;transform:translateX(-50%);width:560px;height:880px;border-radius:72px;background:#1b1b1b;padding:18px;box-shadow:0 40px 80px rgba(41,40,36,.18)}
 .phone .tela{width:100%;height:100%;border-radius:56px;overflow:hidden;background:#F7F6F2}.phone img{width:100%;display:block}
-.icones{display:flex;justify-content:space-between;margin:80px 0 72px}.icones div{width:272px;text-align:center}.icones svg{width:200px;height:200px;display:block;margin:0 auto 20px}.icones span{font-size:22px;letter-spacing:.17em;font-weight:500;color:#1F2711}`;
+.icones{display:flex;justify-content:space-between;margin:140px 0 120px}.icones div{width:272px;text-align:center}.icones svg{width:200px;height:200px;display:block;margin:0 auto 20px}.icones span{font-size:22px;letter-spacing:.17em;font-weight:500;color:#1F2711}`;
 
 const rodape = `<div class="rodape"><span>@${site.instagram.usuario}</span>${mono}</div>`;
 const cards = [
