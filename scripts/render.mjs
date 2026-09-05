@@ -20,8 +20,10 @@ const IMAGENS = {
   'foto-sorrindo-2': { larguras: [777, 540], w: 777, h: 1409, sizes: '(max-width: 760px) 100vw, 40vw' }
 };
 
+// api.whatsapp.com com o número como parâmetro explícito: o formato wa.me/<número> é convertido de forma errada
+// por alguns navegadores móveis (ex.: navegador interno do Instagram) e o app acusa "Couldn't look up phone number".
 export function whatsappUrl(site) {
-  return `https://wa.me/${site.whatsapp.numero}?text=${encodeURIComponent(site.whatsapp.mensagem)}`;
+  return `https://api.whatsapp.com/send?phone=${site.whatsapp.numero}&text=${encodeURIComponent(site.whatsapp.mensagem)}`;
 }
 
 function picture(nome, alt, attrs = '') {

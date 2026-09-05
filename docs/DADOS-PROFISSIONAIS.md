@@ -13,7 +13,7 @@ Informações fornecidas pelo usuário para o site. Atualizado em 05/09/2026.
 
 Olá, Dra. Barbara! Conheci seu trabalho e gostaria de agendar uma avaliação.
 
-O botão abre a conversa com essa mensagem preenchida. A pessoa confirma o envio no WhatsApp. O link foi configurado; não foi enviada mensagem nem verificada a titularidade da conta.
+O botão abre a conversa com essa mensagem preenchida. A pessoa confirma o envio no WhatsApp. Formato do link: `https://api.whatsapp.com/send?phone=<número>&text=<mensagem>`. O formato `wa.me/<número>` foi abandonado em 05/09/2026 porque no celular o app acusou "Couldn't look up phone number =5512988978229". Titularidade da conta não verificada.
 
 ## Ainda a receber
 
