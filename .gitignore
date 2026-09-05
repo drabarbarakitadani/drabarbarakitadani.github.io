@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.artifacts/
+# Acervo original fora do repositório (originais preservados localmente)
+docs/midia/video-conceito.MP4
+*.docx

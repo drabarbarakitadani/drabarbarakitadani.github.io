@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" role="img" aria-labelledby="title desc">
+<title id="title">Dra. Barbara Kitadani — Cirurgiã Dentista</title>
+<desc id="desc">Reconstrução vetorial inicial do logo fornecido em JPEG. Monograma BK e assinatura em curvas, sem dependências de fontes. Fundo transparente.</desc>
+<defs>
+<path id="letter-A" d="M2 36 L15 2 L28 36"/>
+<path id="letter-B" d="M3 36 V2 H16 C30 2 30 18 16 18 H3 M16 18 C32 18 32 36 16 36 H3"/>
+<path id="letter-R" d="M3 36 V2 H16 C31 2 31 19 16 19 H3 M16 19 L28 36"/>
+<path id="letter-K" d="M3 2 V36 M28 2 L3 23 M13 14 L29 36"/>
+<path id="letter-I" d="M15 2 V36"/>
+<path id="letter-T" d="M1 2 H29 M15 2 V36"/>
+<path id="letter-D" d="M3 36 V2 H12 C34 2 34 36 12 36 Z"/>
+<path id="letter-N" d="M3 36 V2 L27 36 V2"/>
+<path id="letter-C" d="M28 6 C18 -3 2 2 2 19 C2 36 18 41 28 32"/>
+<path id="letter-U" d="M3 2 V24 C3 41 27 41 27 24 V2"/>
+<path id="letter-G" d="M28 6 C18 -3 2 2 2 19 C2 36 18 41 28 32 V20 H17"/>
+<path id="letter-E" d="M28 2 H3 V36 H28 M3 18 H24"/>
+<path id="letter-S" d="M27 6 C16 -3 2 2 3 11 C4 21 27 15 28 27 C29 38 12 41 2 32"/>
+<path id="letter-r" d="M4 36 V15 M4 22 C8 14 16 13 21 16"/>
+<path id="letter-a" d="M4 6 C9 0 24 1 24 10 V24 M24 12 C-1 7 -1 29 15 25 L24 20"/>
+<path id="letter-tilde" d="M7 -5 C13 -13 17 1 23 -7"/>
+</defs>
+<g fill="#9D948A" transform="translate(350 20)">
+<path d="M22 5 C30 4 40 4 49 4 L89 4 C122 4 143 20 143 51 C143 74 129 92 109 100 C135 103 154 124 154 151 C154 184 131 209 91 209 L51 209 L53 206 L89 206 C121 206 138 186 138 153 C138 123 122 104 92 104 L54 104 L54 184 C54 200 43 210 24 208 L24 206 C34 206 38 198 38 184 L38 24 C38 12 35 8 22 8 Z M54 100 L87 100 C112 100 127 81 127 53 C127 22 113 8 88 8 L59 8 C55 8 54 10 54 15 Z" fill-rule="evenodd"/>
+<path d="M225 81 L254 81 L253 84 C244 85 237 92 228 102 L177 158 L247 247 C259 264 273 277 300 278 L300 281 C272 283 252 275 237 258 L163 166 L221 103 C228 95 233 88 225 85 Z"/>
+</g>
+<g fill="none" stroke="#716D64" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+<use href="#letter-D" transform="translate(76 362) scale(1.05)"/>
+<use href="#letter-r" transform="translate(117 362) scale(1.05)"/>
+<use href="#letter-a" transform="translate(146 360) scale(0.67)"/>
+<use href="#letter-B" transform="translate(208 362) scale(1.05)"/>
+<use href="#letter-A" transform="translate(256 362) scale(1.05)"/>
+<use href="#letter-R" transform="translate(304 362) scale(1.05)"/>
+<use href="#letter-B" transform="translate(352 362) scale(1.05)"/>
+<use href="#letter-A" transform="translate(400 362) scale(1.05)"/>
+<use href="#letter-R" transform="translate(448 362) scale(1.05)"/>
+<use href="#letter-A" transform="translate(496 362) scale(1.05)"/>
+<use href="#letter-K" transform="translate(592 362) scale(1.05)"/>
+<use href="#letter-I" transform="translate(640 362) scale(1.05)"/>
+<use href="#letter-T" transform="translate(688 362) scale(1.05)"/>
+<use href="#letter-A" transform="translate(736 362) scale(1.05)"/>
+<use href="#letter-D" transform="translate(784 362) scale(1.05)"/>
+<use href="#letter-A" transform="translate(832 362) scale(1.05)"/>
+<use href="#letter-N" transform="translate(880 362) scale(1.05)"/>
+<use href="#letter-I" transform="translate(928 362) scale(1.05)"/>
+<use href="#letter-C" transform="translate(266 445) scale(0.55)"/>
+<use href="#letter-I" transform="translate(296 445) scale(0.55)"/>
+<use href="#letter-R" transform="translate(326 445) scale(0.55)"/>
+<use href="#letter-U" transform="translate(356 445) scale(0.55)"/>
+<use href="#letter-R" transform="translate(386 445) scale(0.55)"/>
+<use href="#letter-G" transform="translate(416 445) scale(0.55)"/>
+<use href="#letter-I" transform="translate(446 445) scale(0.55)"/>
+<use href="#letter-A" transform="translate(476 445) scale(0.55)"/>
+<use href="#letter-D" transform="translate(536 445) scale(0.55)"/>
+<use href="#letter-E" transform="translate(566 445) scale(0.55)"/>
+<use href="#letter-N" transform="translate(596 445) scale(0.55)"/>
+<use href="#letter-T" transform="translate(626 445) scale(0.55)"/>
+<use href="#letter-I" transform="translate(656 445) scale(0.55)"/>
+<use href="#letter-S" transform="translate(686 445) scale(0.55)"/>
+<use href="#letter-T" transform="translate(716 445) scale(0.55)"/>
+<use href="#letter-A" transform="translate(746 445) scale(0.55)"/>
+<use href="#letter-tilde" transform="translate(476 445) scale(.55)"/>
+<path d="M171 455 H241 M758 455 H827" stroke-width="2"/>
+</g>
+</svg>

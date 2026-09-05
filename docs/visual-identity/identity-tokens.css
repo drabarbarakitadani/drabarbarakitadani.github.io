@@ -1,0 +1,36 @@
+/* Proposta v2 — verde oliva solicitado pelo usuário. Fonte carregada pelo consumidor. */
+:root {
+  --bk-bg: #f7f6f2;
+  --bk-surface: #ffffff;
+  --bk-sand: #e8e1d8;
+  --bk-accent: #708d3e;
+  --bk-detail: #1f2711;
+  --bk-logo-taupe: #9d948a;
+  --bk-muted: #716d64;
+  --bk-ink: #292824;
+  --bk-border: #d5cec5;
+  --bk-font: "Montserrat", Arial, sans-serif;
+  --bk-display: clamp(2.5rem, 1.5rem + 4vw, 5.5rem);
+  --bk-heading: clamp(1.875rem, 1.2rem + 2.7vw, 3.5rem);
+  --bk-body: clamp(1rem, 0.95rem + 0.2vw, 1.125rem);
+  --bk-radius-media: 8px;
+  --bk-radius-control: 4px;
+  --bk-content: 80rem;
+  --bk-gutter: clamp(1.5rem, 4vw, 5rem);
+  --bk-fast: 180ms;
+  --bk-editorial: 750ms;
+  --bk-ease: cubic-bezier(.22, 1, .36, 1);
+  --bk-space-1: 4px;
+  --bk-space-2: 8px;
+  --bk-space-3: 12px;
+  --bk-space-4: 16px;
+  --bk-space-6: 24px;
+  --bk-space-8: 32px;
+  --bk-space-12: 48px;
+  --bk-space-16: 64px;
+  --bk-space-24: 96px;
+  --bk-space-32: 128px;
+}
+@media (prefers-reduced-motion: reduce) {
+  :root { --bk-fast: 0ms; --bk-editorial: 0ms; }
+}

@@ -1,0 +1,78 @@
+{
+  "nome": "Barbara Kitadani",
+  "nomeCompleto": "Dra. Barbara Kitadani",
+  "atuacao": "Estética facial & odontologia",
+  "registro": "",
+  "titulo": "Barbara Kitadani · Cuidado que começa na escuta",
+  "descricao": "Estética facial e odontologia em Ibiúna, SP. Um cuidado individualizado que começa na escuta. Agende uma avaliação com a Dra. Barbara Kitadani.",
+  "url": "https://pptex23.github.io/dra-barbara-kitadani/",
+  "indexar": false,
+  "whatsapp": {
+    "numero": "5512988978229",
+    "exibicao": "+55 (12) 98897-8229",
+    "mensagem": "Olá, Dra. Barbara! Conheci seu trabalho e gostaria de agendar uma avaliação."
+  },
+  "instagram": {
+    "usuario": "drabarbarakitadani",
+    "url": "https://www.instagram.com/drabarbarakitadani/"
+  },
+  "endereco": ["Rua Dr. Gabriel Monteiro da Silva, 666", "Ibiúna, SP"],
+  "menu": [
+    { "texto": "O olhar", "href": "#olhar" },
+    { "texto": "Cuidados", "href": "#cuidados" },
+    { "texto": "Agendamento", "href": "#contato", "seta": true }
+  ],
+  "inicio": {
+    "rotulo": "ESTÉTICA FACIAL & ODONTOLOGIA",
+    "titulo": ["Cuidado que", "começa na", "*escuta.*"],
+    "texto": "Sua história, sua beleza.\nUm cuidado pensado para você.",
+    "link": "Conheça esse olhar",
+    "imagem": "foto-sorrindo-2",
+    "imagemAlt": "Dra. Barbara Kitadani sorrindo no consultório"
+  },
+  "olhar": {
+    "legenda": "UM OLHAR PARA VOCÊ POR INTEIRO",
+    "imagem": "foto-sorrindo-1",
+    "imagemAlt": "Barbara em um momento espontâneo de conversa",
+    "passos": [
+      {
+        "rotulo": "01 · ESCUTAR",
+        "titulo": "Antes de cuidar,\n*entender.*",
+        "texto": "Uma conversa sobre o que você sente, o que busca e o que importa para você."
+      },
+      {
+        "rotulo": "02 · RESPEITAR",
+        "titulo": "A sua beleza\ntem *identidade.*",
+        "texto": "Respeitar sua anatomia e sua naturalidade faz parte de cada escolha."
+      },
+      {
+        "rotulo": "03 · CUIDAR",
+        "titulo": "O rosto inteiro.\nA pessoa *também.*",
+        "texto": "Um planejamento individualizado que conecta pele, face e sorriso ao seu bem-estar."
+      }
+    ]
+  },
+  "experiencia": {
+    "exibir": true,
+    "rotulo": "O CUIDADO, DE PERTO",
+    "titulo": "Presença que\nfaz *diferença.*",
+    "texto": "Conheça um pouco da rotina da Dra. Barbara.",
+    "video": "video-conceito.mp4",
+    "poster": "video-poster.jpg",
+    "videoAlt": "Vídeo da rotina de trabalho da Dra. Barbara"
+  },
+  "cuidados": {
+    "rotulo": "POSSIBILIDADES DE CUIDADO",
+    "titulo": "O que faz você\nse sentir *bem?*",
+    "texto": "Explore alguns cuidados. A indicação começa com uma avaliação individual.",
+    "iniciais": 3,
+    "abrir": "Conheça os procedimentos",
+    "fechar": "Recolher procedimentos"
+  },
+  "contato": {
+    "rotulo": "O PRÓXIMO PASSO É UMA CONVERSA",
+    "titulo": "Vamos cuidar\nde *você?*",
+    "texto": "Conte o que você busca.\nVamos entender juntas o melhor caminho.",
+    "botao": "Agendar avaliação"
+  }
+}

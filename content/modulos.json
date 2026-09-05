@@ -1,0 +1,40 @@
+{
+  "_ajuda": "Molde de módulos extras. Cada item vira uma seção no site quando 'ativo' é true e a data de hoje está entre 'inicio' e 'fim' (ambos opcionais, formato AAAA-MM-DD). Tipos: 'destaque' (seção com título, texto e botão), 'aviso' (faixa curta) e 'informacao' (título, texto e lista de itens). Posições: 'apos-inicio', 'apos-olhar', 'apos-experiencia', 'apos-cuidados', 'apos-contato'. Em 'acao.url' use 'whatsapp', 'instagram', '#contato' ou um endereço completo. Detalhes em docs/OPERACAO.md.",
+  "modulos": [
+    {
+      "id": "exemplo-destaque",
+      "ativo": false,
+      "tipo": "destaque",
+      "posicao": "apos-cuidados",
+      "inicio": "2026-09-01",
+      "fim": "2026-09-30",
+      "rotulo": "SETEMBRO",
+      "titulo": "Mês da *avaliação.*",
+      "texto": "Durante setembro, a primeira conversa de avaliação tem horários ampliados às sextas-feiras.",
+      "acao": { "texto": "Reservar um horário", "url": "whatsapp" }
+    },
+    {
+      "id": "exemplo-aviso",
+      "ativo": false,
+      "tipo": "aviso",
+      "posicao": "apos-inicio",
+      "titulo": "Atendimento em recesso",
+      "texto": "de 20 a 27 de dezembro. As mensagens serão respondidas no retorno.",
+      "acao": { "texto": "Falar no WhatsApp", "url": "whatsapp" }
+    },
+    {
+      "id": "exemplo-informacao",
+      "ativo": false,
+      "tipo": "informacao",
+      "posicao": "apos-experiencia",
+      "rotulo": "COMO FUNCIONA",
+      "titulo": "A primeira *consulta.*",
+      "texto": "O que esperar do primeiro encontro.",
+      "itens": [
+        "Conversa sobre sua história, expectativas e rotina.",
+        "Avaliação clínica da pele, da face e do sorriso.",
+        "Um planejamento apresentado com calma, sem pressa para decidir."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "bioestimulador",
+    "categoria": "Pele",
+    "titulo": "Bioestimulador de colágeno",
+    "descricao": "Um cuidado voltado à qualidade da pele, integrado a um planejamento individualizado após avaliação.",
+    "icone": "M30 54 Q60 15 90 54 M30 66 Q60 27 90 66 M30 78 Q60 39 90 78 M60 16 V25 M92 28 L85 35 M28 28 L35 35"
+  },
+  {
+    "id": "labial",
+    "categoria": "Face",
+    "titulo": "Preenchimento labial",
+    "descricao": "Planejamento dos lábios considerando contorno, proporções e a relação com os demais traços do rosto.",
+    "icone": "M18 60 Q40 35 53 43 Q60 51 67 43 Q80 35 102 60 Q80 91 60 86 Q40 91 18 60 Z M18 60 Q40 68 60 61 Q80 68 102 60"
+  },
+  {
+    "id": "clareamento",
+    "categoria": "Sorriso",
+    "titulo": "Clareamento",
+    "descricao": "Cuidado com a tonalidade dos dentes, com avaliação da saúde bucal e orientação para cada caso.",
+    "icone": "M38 23 Q49 17 60 25 Q76 16 85 25 Q98 40 83 68 Q80 103 70 94 L62 73 Q59 67 56 75 L48 94 Q39 104 35 69 Q20 39 38 23 Z M97 13 V29 M89 21 H105"
+  },
+  {
+    "id": "olheira",
+    "categoria": "Face",
+    "titulo": "Preenchimento de olheira",
+    "descricao": "Avaliação da região abaixo dos olhos e de sua relação com a face para planejar o cuidado de forma individualizada.",
+    "icone": "M22 57 Q43 31 64 57 Q43 74 22 57 M56 57 Q77 31 98 57 Q77 74 56 57 M29 76 Q43 83 56 76 M64 76 Q77 83 90 76"
+  },
+  {
+    "id": "bigode-chines",
+    "categoria": "Face",
+    "titulo": "Preenchimento de bigode chinês",
+    "descricao": "Planejamento da região entre o nariz e os cantos da boca, considerando as características e o movimento da face.",
+    "icone": "M36 28 Q60 10 84 28 L84 59 Q83 86 60 99 Q37 86 36 59 Z M53 46 L49 59 Q60 65 71 59 L67 46 M46 62 Q39 71 41 83 M74 62 Q81 71 79 83 M49 79 Q60 84 71 79"
+  },
+  {
+    "id": "mento",
+    "categoria": "Face",
+    "titulo": "Preenchimento de mento",
+    "descricao": "Um olhar para o queixo e sua relação com o perfil e as proporções do rosto.",
+    "icone": "M36 28 Q60 10 84 28 L84 59 Q83 86 60 99 Q37 86 36 59 Z M48 87 Q60 97 72 87 M51 76 Q60 80 69 76"
+  },
+  {
+    "id": "mandibula",
+    "categoria": "Face",
+    "titulo": "Preenchimento de mandíbula",
+    "descricao": "Planejamento do contorno mandibular em conjunto com os demais traços da face.",
+    "icone": "M36 28 Q60 10 84 28 L84 59 Q83 86 60 99 Q37 86 36 59 Z M30 61 Q30 91 60 106 Q90 91 90 61"
+  },
+  {
+    "id": "malar",
+    "categoria": "Face",
+    "titulo": "Preenchimento de malar",
+    "descricao": "Avaliação da região das maçãs do rosto e de sua participação na harmonia facial.",
+    "icone": "M36 28 Q60 10 84 28 L84 59 Q83 86 60 99 Q37 86 36 59 Z M41 59 Q47 48 54 54 M66 54 Q73 48 79 59 M42 65 Q49 70 54 62 M66 62 Q71 70 78 65"
+  },
+  {
+    "id": "rinomodelacao",
+    "categoria": "Face",
+    "titulo": "Rinomodelação",
+    "descricao": "Avaliação do contorno nasal em relação ao perfil, respeitando a anatomia e os limites de indicação do procedimento.",
+    "icone": "M41 20 Q64 17 67 38 L78 62 Q81 69 70 72 L61 71 M55 73 Q47 81 61 84 M43 94 Q57 103 67 93"
+  },
+  {
+    "id": "tempora",
+    "categoria": "Face",
+    "titulo": "Preenchimento de têmpora",
+    "descricao": "Cuidado planejado para a região lateral da testa, considerando o conjunto da face.",
+    "icone": "M36 28 Q60 10 84 28 L84 59 Q83 86 60 99 Q37 86 36 59 Z M30 35 Q24 48 31 59 M90 35 Q96 48 89 59 M42 40 L49 43 M78 40 L71 43"
+  },
+  {
+    "id": "toxina",
+    "categoria": "Face",
+    "titulo": "Toxina botulínica",
+    "descricao": "Avaliação das linhas de expressão e da dinâmica muscular para um planejamento que respeite suas expressões.",
+    "icone": "M36 28 Q60 10 84 28 L84 59 Q83 86 60 99 Q37 86 36 59 Z M46 30 Q60 25 74 30 M45 36 Q60 31 75 36 M42 48 Q49 44 55 48 M65 48 Q71 44 78 48"
+  },
+  {
+    "id": "skin-booster",
+    "categoria": "Pele",
+    "titulo": "Skin booster",
+    "descricao": "Uma possibilidade de cuidado com a pele, selecionada conforme suas características e necessidades.",
+    "icone": "M60 18 C52 33 33 50 33 68 A27 27 0 0 0 87 68 C87 50 68 33 60 18 Z M44 69 Q44 83 57 85"
+  },
+  {
+    "id": "nctf",
+    "categoria": "Pele",
+    "titulo": "NCTF",
+    "descricao": "Uma opção para compor o planejamento de cuidado da pele, com indicação e orientação individualizadas.",
+    "icone": "M28 80 Q60 60 92 80 M28 91 Q60 71 92 91 M39 42 h1 M59 35 h1 M79 42 h1 M49 56 h1 M69 56 h1"
+  },
+  {
+    "id": "microagulhamento",
+    "categoria": "Pele",
+    "titulo": "Microagulhamento",
+    "descricao": "Procedimento que pode integrar o cuidado com a textura da pele, após avaliação e orientação profissional.",
+    "icone": "M24 79 Q60 66 96 79 M24 91 Q60 78 96 91 M36 26 V53 M48 22 V49 M60 20 V47 M72 22 V49 M84 26 V53"
+  },
+  {
+    "id": "peeling",
+    "categoria": "Pele",
+    "titulo": "Peeling",
+    "descricao": "Cuidado com a renovação da pele, com escolha do protocolo conforme a avaliação individual.",
+    "icone": "M22 55 Q60 34 98 55 M22 69 Q60 48 98 69 M22 83 Q60 62 98 83 M49 32 Q71 34 80 18"
+  },
+  {
+    "id": "profilaxia",
+    "categoria": "Sorriso",
+    "titulo": "Profilaxia",
+    "descricao": "Limpeza profissional que faz parte do cuidado preventivo e do acompanhamento da saúde bucal.",
+    "icone": "M38 23 Q49 17 60 25 Q76 16 85 25 Q98 40 83 68 Q80 103 70 94 L62 73 Q59 67 56 75 L48 94 Q39 104 35 69 Q20 39 38 23 Z M14 18 V34 M6 26 H22 M91 85 V97 M85 91 H97"
+  },
+  {
+    "id": "restauracao",
+    "categoria": "Sorriso",
+    "titulo": "Restauração",
+    "descricao": "Cuidado para reconstruir áreas do dente que precisam de reparo, considerando sua função e aparência.",
+    "icone": "M38 23 Q49 17 60 25 Q76 16 85 25 Q98 40 83 68 Q80 103 70 94 L62 73 Q59 67 56 75 L48 94 Q39 104 35 69 Q20 39 38 23 Z M52 25 L47 39 L61 48 L72 36 L66 24 M49 39 L61 38"
+  },
+  {
+    "id": "extracao",
+    "categoria": "Sorriso",
+    "titulo": "Extração",
+    "descricao": "Remoção de um dente quando indicada, com avaliação, planejamento e orientações de cuidado.",
+    "icone": "M38 23 Q49 17 60 25 Q76 16 85 25 Q98 40 83 68 Q80 103 70 94 L62 73 Q59 67 56 75 L48 94 Q39 104 35 69 Q20 39 38 23 Z M13 60 V29 M6 36 L13 29 L20 36"
+  }
+]

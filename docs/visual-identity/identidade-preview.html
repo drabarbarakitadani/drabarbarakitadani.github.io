@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BK — Estudo de identidade v2 · Verde oliva</title>
+<link rel="stylesheet" href="identity-tokens.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}body{margin:0;background:var(--bk-bg);color:var(--bk-ink);font-family:var(--bk-font);font-size:var(--bk-body);line-height:1.65}
+header,main,footer{max-width:var(--bk-content);margin:auto;padding:32px var(--bk-gutter)}
+header{display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid var(--bk-border)}header img{width:62px;height:62px}
+.label{font-size:12px;font-weight:500;letter-spacing:.12em;text-transform:uppercase}.muted{color:var(--bk-muted)}
+h1,h2,h3,p{margin-top:0}h1{font-size:var(--bk-display);font-weight:400;line-height:1.08;letter-spacing:-.035em;margin-bottom:24px}h2{font-size:var(--bk-heading);font-weight:400;line-height:1.15;letter-spacing:-.025em}h3{font-size:22px;font-weight:500}p{max-width:60ch}
+section{padding:56px 0;border-bottom:1px solid var(--bk-border)}.hero{display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:center}
+.portrait{width:100%;max-height:680px;object-fit:cover;object-position:50% 45%;border-radius:var(--bk-radius-media)}
+.action{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 24px;background:transparent;color:var(--bk-detail);border:1px solid var(--bk-detail);border-radius:var(--bk-radius-control);font-size:15px;font-weight:500;gap:12px}
+.action::after{content:"↗";color:var(--bk-detail);font-size:20px}
+.accent-word{color:var(--bk-accent)}.hero .label{color:var(--bk-detail)}
+.hero .label::before{content:"";display:inline-block;width:24px;height:2px;background:var(--bk-accent);vertical-align:middle;margin-right:12px}
+.palette{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}.chip{height:100px;border:1px solid var(--bk-border);border-radius:8px}.palette p{font-size:14px;margin:10px 0 0}
+.type{font-size:clamp(24px,4vw,48px);line-height:1.3;overflow-wrap:anywhere}.sample{padding:32px;background:var(--bk-sand);border-radius:8px;border-top:3px solid var(--bk-accent)}.sample h3{color:var(--bk-detail)}.sample p{color:var(--bk-ink)}
+a{color:var(--bk-detail);text-underline-offset:4px}a:focus-visible{outline:2px solid var(--bk-detail);outline-offset:5px}
+.note{font-size:13px}.light{font-weight:300}.regular{font-weight:400}.medium{font-weight:500}
+@media(max-width:700px){header,main,footer{padding-left:24px;padding-right:24px}.hero{grid-template-columns:1fr;gap:32px}.portrait{max-height:520px}.palette{grid-template-columns:repeat(2,minmax(0,1fr))}section{padding:40px 0}}
+</style>
+</head>
+<body>
+<header><img src="monogram-bk.svg" alt="Monograma BK, reconstrução inicial"><span class="label">Identidade digital · proposta 02 · Oliva</span></header>
+<main>
+<p class="note muted" id="font-status" role="status">A fonte Montserrat requer conexão com Google Fonts neste estudo; se não carregar, será exibida Arial.</p>
+<section class="hero">
+<div><p class="label">Barbara Kitadani</p><h1>Cuidado que começa na <span class="accent-word">escuta.</span></h1><p class="muted">Um olhar atento à sua história, à sua anatomia e ao que faz você se sentir bem.</p><span class="action">Agendar avaliação</span><p class="note muted">Amostra visual do botão, sem agendamento. Texto proposto para avaliação.</p></div>
+<img class="portrait" src="../midia/foto-sorrindo-2.jpg" width="777" height="1409" alt="Dra. Barbara sorrindo no consultório">
+</section>
+<section><p class="label">01 · Cores</p><h2>Luz, pele e <span class="accent-word">natureza.</span></h2><p class="muted">Base clara e quente, verde oliva nos acentos e verde profundo em pequenos contornos e destaques. Grafite permanece nos textos corridos.</p><div class="palette">
+<div><div class="chip" style="background:#F7F6F2"></div><p>Porcelana<br>#F7F6F2</p></div>
+<div><div class="chip" style="background:#FFFFFF"></div><p>Branco<br>#FFFFFF</p></div>
+<div><div class="chip" style="background:#E8E1D8"></div><p>Areia<br>#E8E1D8</p></div>
+<div><div class="chip" style="background:var(--bk-accent)"></div><p>Oliva · acento<br>#708D3E</p></div>
+<div><div class="chip" style="background:var(--bk-detail)"></div><p>Verde profundo · detalhes<br>#1F2711</p></div>
+<div><div class="chip" style="background:#716D64"></div><p>Pedra<br>#716D64</p></div>
+<div><div class="chip" style="background:#292824"></div><p>Grafite<br>#292824</p></div>
+<div><div class="chip" style="background:#D5CEC5"></div><p>Névoa<br>#D5CEC5</p></div>
+</div></section>
+<section><p class="label">02 · Tipografia</p><h2>Montserrat</h2><p class="muted">Proposta por afinidade com o nome no logo; a fonte original ainda não foi identificada.</p><p class="type light">Seu rosto. Sua história. · 300</p><p class="type regular">Seu rosto. Sua história. · 400</p><p class="type medium">Seu rosto. Sua história. · 500</p><p class="label">PELE · FACE · SORRISO</p><p>Avaliação, harmonização e cuidado com você. A tipografia deve acolher a leitura, inclusive nas telas pequenas.</p></section>
+<section><p class="label">03 · Aplicação</p><div class="sample"><h3>Um cuidado pensado para você.</h3><p>Atendimento próximo, planejamento individualizado e respeito à naturalidade.</p></div></section>
+<section><p class="label">04 · Marca</p><img src="logo-reconstructed.svg" width="1000" height="500" style="width:100%;height:auto;max-width:720px" alt="Logo reconstruído de Barbara Kitadani — Cirurgiã Dentista"><p class="note muted">Reconstrução aproximada em revisão. Não substitui a aprovação do desenho original.</p></section>
+</main>
+<footer><p class="note">Estudo estático de identidade. A sequência animada inspirada no Lannino será desenvolvida no protótipo.</p><a href="IDENTIDADE-VISUAL.md">Consultar o mapeamento completo</a></footer>
+<script>
+document.fonts.load('400 16px "Montserrat"').then(function(fonts){
+document.getElementById('font-status').textContent=fonts.length?'Montserrat carregada — amostras prontas para comparação.':'Montserrat não carregou. As amostras estão em fonte alternativa; conecte-se à internet para avaliar a proposta.';
+}).catch(function(){document.getElementById('font-status').textContent='Montserrat não carregou. As amostras estão em fonte alternativa; conecte-se à internet para avaliar a proposta.';});
+</script>
+</body>
+</html>
