@@ -1,4 +1,4 @@
-// Gera material de divulgação do site para o Instagram: carrossel (5 cards 1080x1350), vídeo de Story (1080x1920) e legenda.
+// Gera material de divulgação do site para o Instagram: carrossel (6 cards 1080x1350), vídeo de Story (1080x1920) e legenda.
 // Uso: node scripts/divulgacao.mjs [pasta-de-saida]   (padrão: divulgacao/<AAAA-MM-DD>-lancamento). Requer Google Chrome e ffmpeg.
 import { chromium } from 'playwright';
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync, renameSync, rmSync } from 'node:fs';
@@ -35,7 +35,8 @@ em{font-style:normal;color:#708D3E}.muted{color:#716D64}
 
 const rodape = `<div class="rodape"><span>@${site.instagram.usuario}</span>${mono}</div>`;
 const cards = [
-  `<body><div class="pad"><div style="width:220px;margin-bottom:120px">${mono}</div><p class="eyebrow">NOSSO SITE CHEGOU</p><h1>Cuidado que<br>começa na<br><em>escuta.</em></h1><p class="muted" style="font-size:30px;line-height:1.5;margin:64px 0 0">Sua história, sua beleza.<br>Um cuidado pensado para você.</p></div>${rodape}</body>`,
+  `<body><div class="pad"><div style="width:220px;margin-bottom:120px">${mono}</div><p class="eyebrow">NOSSO SITE CHEGOU</p><h1 style="font-size:100px">Agora ficou mais fácil de agendar sua <em>consulta.</em></h1><p class="muted" style="font-size:32px;line-height:1.5;margin:64px 0 0;max-width:820px">Clique no link para conhecer mais e agendar sua avaliação.</p></div>${rodape}</body>`,
+  `<body><div class="pad"><div style="width:220px;margin-bottom:120px">${mono}</div><p class="eyebrow">UM JEITO DE CUIDAR</p><h1>Cuidado que<br>começa na<br><em>escuta.</em></h1><p class="muted" style="font-size:30px;line-height:1.5;margin:64px 0 0">Sua história, sua beleza.<br>Um cuidado pensado para você.</p></div>${rodape}</body>`,
   `<body><div class="pad" style="padding-top:88px"><div class="arco"><img src="${foto2}"></div><p class="eyebrow" style="margin-top:72px">UM ESPAÇO PARA VOCÊ</p><h2>Conheça o cuidado da Dra. Barbara antes mesmo da <em>primeira conversa.</em></h2></div>${rodape}</body>`,
   `<body class="areia"><div class="pad" style="text-align:center"><p class="eyebrow">CONHEÇA O SITE</p><h2 style="font-size:56px">${dominio}</h2></div><div class="phone"><div class="tela"><img src="__SITE__"></div></div>${rodape}</body>`,
   `<body><div class="pad"><p class="eyebrow">PELE · FACE · SORRISO</p><h2>18 possibilidades de cuidado para explorar <em>com calma.</em></h2><div class="icones"><div>${icone('bioestimulador')}<span>PELE</span></div><div>${icone('labial')}<span>FACE</span></div><div>${icone('clareamento')}<span>SORRISO</span></div></div><p class="muted" style="font-size:30px;line-height:1.5;margin:0;max-width:760px">Cada possibilidade explicada em poucas linhas. A indicação sempre começa com uma avaliação individual.</p></div>${rodape}</body>`,
