@@ -65,9 +65,8 @@ export function renderModulo(m, site) {
   return `<section class="modulo modulo-destaque" id="${id}"><div class="reveal">${m.rotulo ? `<p class="eyebrow">${esc(m.rotulo)}</p>` : ''}<h2>${rich(m.titulo)}</h2>${m.texto ? `<p>${rich(m.texto)}</p>` : ''}${acao(m.acao, site, 'contact-button modulo-acao')}</div></section>`;
 }
 
-function card(p, indice) {
-  const num = String(indice + 1).padStart(2, '0');
-  const rotulo = `${num} · ${p.categoria.toUpperCase()}`;
+function card(p) {
+  const rotulo = p.categoria.toUpperCase();
   return `<article class="procedure reveal" data-card data-procedure="${esc(p.id)}">
 <div class="card-rotor"><div class="card-face card-front"><span class="eyebrow">${esc(rotulo)}</span><svg viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${esc(p.icone)}"/></svg><h3>${esc(p.titulo)}</h3></div>
 <div class="card-face card-back" id="detail-${esc(p.id)}"><span class="eyebrow">${esc(rotulo)}</span><h3>${esc(p.titulo)}</h3><p>${rich(p.descricao)}</p></div></div>
@@ -104,7 +103,7 @@ export function renderBody(content, hoje) {
   const menu = site.menu.map(i => `<a href="${esc(i.href)}">${esc(i.texto)}${i.seta ? ' <span aria-hidden="true">↗</span>' : ''}</a>`).join('');
   const n = site.cuidados.iniciais;
   const iniciais = procedimentos.slice(0, n).map(card).join('\n');
-  const restantes = procedimentos.slice(n).map((p, i) => card(p, i + n)).join('\n');
+  const restantes = procedimentos.slice(n).map(card).join('\n');
   const heading = s => `<div class="section-heading reveal"><p class="eyebrow">${esc(s.rotulo)}</p><h2>${rich(s.titulo)}</h2><p>${rich(s.texto)}</p></div>`;
   const experiencia = site.experiencia.exibir ? `<section id="experiencia" class="experience">${heading(site.experiencia)}<div class="video-frame reveal"><video id="clinic-video" controls muted playsinline preload="none" poster="media/${esc(site.experiencia.poster)}" aria-label="${esc(site.experiencia.videoAlt)}"><source src="media/${esc(site.experiencia.video)}" type="video/mp4">Seu navegador não reproduz este vídeo. <a href="media/${esc(site.experiencia.video)}">Abrir vídeo</a>.</video></div></section>` : '';
   return `<a class="skip" href="#conteudo">Pular para o conteúdo</a>
@@ -118,7 +117,7 @@ ${experiencia}
 ${slot('apos-experiencia')}
 <section id="cuidados" class="care">${heading(site.cuidados)}<div class="cards">
 ${iniciais}
-</div><details class="all-care"><summary><span class="when-closed">${esc(site.cuidados.abrir)} · ${procedimentos.length}</span><span class="when-open">${esc(site.cuidados.fechar)}</span><span class="expand-icon" aria-hidden="true">+</span></summary>
+</div><details class="all-care"><summary><span class="when-closed">${esc(site.cuidados.abrir)}</span><span class="when-open">${esc(site.cuidados.fechar)}</span><span class="expand-icon" aria-hidden="true">+</span></summary>
 <div class="cards expanded-cards">
 ${restantes}
 </div></details></section>

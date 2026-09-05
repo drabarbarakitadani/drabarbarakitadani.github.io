@@ -37,7 +37,7 @@ Marcação disponível em qualquer texto: `*palavra*` deixa a palavra em verde o
 
 ### content/procedimentos.json — os cards
 
-Lista ordenada. Os três primeiros aparecem abertos; os demais ficam atrás de "Conheça os procedimentos". Para reordenar, mova o item. Para adicionar, copie um item e altere `id` (sem espaços ou acentos, único), `categoria` (Pele, Face ou Sorriso), `titulo`, `descricao` e `icone` (o atributo `d` de um `<path>` SVG em uma caixa de 120 por 120). A numeração dos cards é automática.
+Lista ordenada. Os três primeiros aparecem abertos; os demais ficam atrás de "Conheça os procedimentos". Para reordenar, mova o item. Para adicionar, copie um item e altere `id` (sem espaços ou acentos, único), `categoria` (Pele, Face ou Sorriso), `titulo`, `descricao` e `icone` (o atributo `d` de um `<path>` SVG em uma caixa de 120 por 120). O rótulo do card é a categoria.
 
 ### content/modulos.json — molde para promoções, avisos e informações extras
 
