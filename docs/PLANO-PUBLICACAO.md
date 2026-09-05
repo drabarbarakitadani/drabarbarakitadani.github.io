@@ -2,7 +2,7 @@
 
 Data: 05/09/2026. Atualizado no mesmo dia após a execução das etapas 1 e 2.
 
-Repositório oficial: https://github.com/pptex23/dra-barbara-kitadani (conta pessoal pptex23). O nome project-dra-bk citado anteriormente nunca foi criado.
+Repositório oficial: https://github.com/drabarbarakitadani/drabarbarakitadani.github.io (organização gratuita drabarbarakitadani, administrada pela conta pessoal pptex23; criado como pptex23/dra-barbara-kitadani e transferido em 05/09/2026). O nome project-dra-bk citado anteriormente nunca foi criado.
 
 ## Estado após a execução de 05/09/2026
 

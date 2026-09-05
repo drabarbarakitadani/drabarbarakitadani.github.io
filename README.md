@@ -3,7 +3,7 @@
 Site estático de apresentação da Dra. Barbara Kitadani (estética facial e odontologia, Ibiúna, SP). Conteúdo em JSON, build com Vite, publicação automática no GitHub Pages a cada push na `main`.
 
 - Endereço público: valor de `url` em [content/site.json](content/site.json).
-- Repositório oficial: https://github.com/pptex23/dra-barbara-kitadani
+- Repositório oficial: https://github.com/drabarbarakitadani/drabarbarakitadani.github.io
 - Guia de manutenção: [docs/OPERACAO.md](docs/OPERACAO.md)
 - Plano e pendências para divulgação: [docs/PLANO-PUBLICACAO.md](docs/PLANO-PUBLICACAO.md)
 

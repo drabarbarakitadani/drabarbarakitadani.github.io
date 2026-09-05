@@ -23,6 +23,6 @@ O botão abre a conversa com essa mensagem preenchida. A pessoa confirma o envio
 
 ## Publicação
 
-GitHub: https://github.com/pptex23/dra-barbara-kitadani
+GitHub: https://github.com/drabarbarakitadani/drabarbarakitadani.github.io
 
 Sem domínio registrado. Hospedagem gratuita no GitHub Pages; endereço público em `content/site.json` (`url`). Os dados desta página estão aplicados em `content/site.json`; editar lá, não no HTML.
