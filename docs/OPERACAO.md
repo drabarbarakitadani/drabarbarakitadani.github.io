@@ -62,7 +62,7 @@ Atenção: promoções, descontos e preços em publicidade de cirurgiã-dentista
 
 1. Coloque o arquivo original em `docs/midia/` com o mesmo nome do que vai substituir. Originais não vão para o repositório quando forem grandes; o vídeo original já está ignorado pelo git.
 2. Rode `npm run media`. O script gera versões otimizadas em `public/media/` com metadados removidos. Requer ffmpeg instalado; no Windows, `winget install Gyan.FFmpeg`.
-3. Para trocar o quadro do poster do vídeo, ajuste o instante em `scripts/media.mjs` (hoje, 12 segundos).
+3. A capa do vídeo é o campo `experiencia.poster` em `content/site.json`: qualquer arquivo de `public/media/` serve (hoje, `foto-sorrindo-1-1080.jpg`). `video-poster.jpg` é um quadro do próprio vídeo, gerado aos 12 segundos, disponível como alternativa.
 4. Se mudar as dimensões de uma foto, atualize a tabela `IMAGENS` em `scripts/render.mjs`.
 5. Rode `npm test` e faça o commit incluindo `public/media/`.
 

@@ -16,7 +16,7 @@ function mb(file) { return (statSync(file).size / 1048576).toFixed(2) + ' MB'; }
 // Vídeo: H.264 1080x1920, ~3 Mbps máximo, áudio AAC 96k, faststart para streaming progressivo.
 run(['-i', `${src}/video-conceito.MP4`, '-c:v', 'libx264', '-preset', 'slow', '-crf', '26', '-maxrate', '3000k', '-bufsize', '6000k',
   '-pix_fmt', 'yuv420p', '-profile:v', 'high', '-level', '4.0', '-movflags', '+faststart', '-c:a', 'aac', '-b:a', '96k', '-ac', '2', `${out}/video-conceito.mp4`]);
-// Poster: quadro aos 12s (Dra. sorrindo à mesa), JPEG de qualidade alta.
+// Poster do vídeo: quadro aos 12s, disponível como alternativa; a capa em uso é definida em content/site.json (experiencia.poster).
 run(['-ss', '12', '-i', `${src}/video-conceito.MP4`, '-frames:v', '1', '-q:v', '3', `${out}/video-poster.jpg`]);
 // Fotos: JPEG + WebP em duas larguras, preservando proporção.
 for (const [name, ext, widths] of [['foto-sorrindo-1', 'png', [1080, 720]], ['foto-sorrindo-2', 'jpg', [777, 540]]]) {
