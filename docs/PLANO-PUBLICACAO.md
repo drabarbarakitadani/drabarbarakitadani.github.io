@@ -11,7 +11,11 @@ Repositório oficial: https://github.com/drabarbarakitadani/drabarbarakitadani.g
 - Etapa 3 adaptada: hospedagem no GitHub Pages em vez de Cloudflare Pages, porque a conexão com a Cloudflare exige login no navegador e o GitHub já concentra código e publicação. O build usa caminhos relativos e pode migrar sem alteração da interface.
 - Molde de módulos extras (promoções, avisos e informações) implementado com ativação por data; exemplos desligados.
 - Vídeo inspecionado: mostra recepção, consulta com análise facial em tablet, fotografia clínica e procedimento injetável. Uma paciente aparece identificável em quase todos os cortes; há áudio. Pendente: autorização de imagem da paciente e validação da Dra. quanto às regras de publicidade do CFO.
-- Ainda pendente para divulgação: CRO/UF (`registro`), revisão dos textos, aprovação do vídeo e troca de `indexar` para `true`.
+- Ajustes após o lançamento (05/09/2026): link do WhatsApp em `api.whatsapp.com/send?phone=` (o wa.me falhava no celular); capa do vídeo com foto-sorrindo-1; repositório transferido para a organização drabarbarakitadani e endereço raiz https://drabarbarakitadani.github.io/ (o link antigo em pptex23.github.io não redireciona); CRO-SP 159.520 no rodapé abaixo do nome; cards sem numeração e botão de procedimentos sem contador; material de divulgação para Instagram gerado por `npm run divulgacao` (pasta local `divulgacao/`, fora do repositório).
+- Link já colocado na bio do Instagram pelo Pedro em 05/09/2026.
+- Ainda pendente para divulgação ampla: revisão clínica dos textos dos 18 cards, aprovação do vídeo com autorização de imagem da paciente, e troca de `indexar` para `true` para o site aparecer no Google.
+
+As seções a seguir são o planejamento original de 05/09/2026, mantidas como registro. Onde citam Cloudflare Pages ou pages.dev, foram substituídas pelo GitHub Pages descrito acima.
 
 Restrição definida pelo usuário: começar sem custos de hospedagem ou domínio. Não existe domínio registrado. Domínio próprio fica para uma etapa futura. A proposta original era GitHub + Cloudflare Pages Free. A execução usou GitHub Pages (gratuito, endereço github.io); a migração para Cloudflare ou domínio próprio continua possível sem reconstruir o site.
 
